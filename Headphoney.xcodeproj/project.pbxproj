@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8A31F4188A07D00031FC07 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8A31F3188A07D00031FC07 /* Cocoa.framework */; };
+		CD8A31FE188A07D00031FC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8A31FC188A07D00031FC07 /* InfoPlist.strings */; };
+		CD8A3200188A07D00031FC07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A31FF188A07D00031FC07 /* main.m */; };
+		CD8A3204188A07D00031FC07 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8A3202188A07D00031FC07 /* Credits.rtf */; };
+		CD8A3207188A07D00031FC07 /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A3206188A07D00031FC07 /* ISAppDelegate.m */; };
+		CD8A320A188A07D00031FC07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8A3208188A07D00031FC07 /* MainMenu.xib */; };
+		CD8A320C188A07D00031FC07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8A320B188A07D00031FC07 /* Images.xcassets */; };
+		CD8A3213188A07D00031FC07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8A3212188A07D00031FC07 /* XCTest.framework */; };
+		CD8A3214188A07D00031FC07 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8A31F3188A07D00031FC07 /* Cocoa.framework */; };
+		CD8A321C188A07D00031FC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8A321A188A07D00031FC07 /* InfoPlist.strings */; };
+		CD8A321E188A07D00031FC07 /* AudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8A321D188A07D00031FC07 /* AudioTests.m */; };
+		CD8A3228188A07DB0031FC07 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8A3227188A07DB0031FC07 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8A3215188A07D00031FC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8A31E8188A07D00031FC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8A31EF188A07D00031FC07;
+			remoteInfo = Audio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8A31F0188A07D00031FC07 /* Headphoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Headphoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8A31F3188A07D00031FC07 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD8A31F6188A07D00031FC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD8A31F7188A07D00031FC07 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD8A31F8188A07D00031FC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8A31FB188A07D00031FC07 /* Headphoney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Headphoney-Info.plist"; sourceTree = "<group>"; };
+		CD8A31FD188A07D00031FC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8A31FF188A07D00031FC07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8A3201188A07D00031FC07 /* Headphoney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Headphoney-Prefix.pch"; sourceTree = "<group>"; };
+		CD8A3203188A07D00031FC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD8A3205188A07D00031FC07 /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		CD8A3206188A07D00031FC07 /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		CD8A3209188A07D00031FC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD8A320B188A07D00031FC07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD8A3211188A07D00031FC07 /* HeadphoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadphoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8A3212188A07D00031FC07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD8A3219188A07D00031FC07 /* HeadphoneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeadphoneyTests-Info.plist"; sourceTree = "<group>"; };
+		CD8A321B188A07D00031FC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8A321D188A07D00031FC07 /* AudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTests.m; sourceTree = "<group>"; };
+		CD8A3227188A07DB0031FC07 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8A31ED188A07D00031FC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A3228188A07DB0031FC07 /* CoreAudio.framework in Frameworks */,
+				CD8A31F4188A07D00031FC07 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8A320E188A07D00031FC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A3214188A07D00031FC07 /* Cocoa.framework in Frameworks */,
+				CD8A3213188A07D00031FC07 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8A31E7188A07D00031FC07 = {
+			isa = PBXGroup;
+			children = (
+				CD8A31F9188A07D00031FC07 /* Code */,
+				CD8A3217188A07D00031FC07 /* Tests */,
+				CD8A31F2188A07D00031FC07 /* Frameworks */,
+				CD8A31F1188A07D00031FC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8A31F1188A07D00031FC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A31F0188A07D00031FC07 /* Headphoney.app */,
+				CD8A3211188A07D00031FC07 /* HeadphoneyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8A31F2188A07D00031FC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A3227188A07DB0031FC07 /* CoreAudio.framework */,
+				CD8A31F3188A07D00031FC07 /* Cocoa.framework */,
+				CD8A3212188A07D00031FC07 /* XCTest.framework */,
+				CD8A31F5188A07D00031FC07 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8A31F5188A07D00031FC07 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A31F6188A07D00031FC07 /* AppKit.framework */,
+				CD8A31F7188A07D00031FC07 /* CoreData.framework */,
+				CD8A31F8188A07D00031FC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD8A31F9188A07D00031FC07 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A3205188A07D00031FC07 /* ISAppDelegate.h */,
+				CD8A3206188A07D00031FC07 /* ISAppDelegate.m */,
+				CD8A3208188A07D00031FC07 /* MainMenu.xib */,
+				CD8A320B188A07D00031FC07 /* Images.xcassets */,
+				CD8A31FA188A07D00031FC07 /* Supporting Files */,
+			);
+			name = Code;
+			path = HeadPhoney;
+			sourceTree = "<group>";
+		};
+		CD8A31FA188A07D00031FC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A31FB188A07D00031FC07 /* Headphoney-Info.plist */,
+				CD8A31FC188A07D00031FC07 /* InfoPlist.strings */,
+				CD8A31FF188A07D00031FC07 /* main.m */,
+				CD8A3201188A07D00031FC07 /* Headphoney-Prefix.pch */,
+				CD8A3202188A07D00031FC07 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8A3217188A07D00031FC07 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A321D188A07D00031FC07 /* AudioTests.m */,
+				CD8A3218188A07D00031FC07 /* Supporting Files */,
+			);
+			name = Tests;
+			path = HeadPhoneyTests;
+			sourceTree = "<group>";
+		};
+		CD8A3218188A07D00031FC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A3219188A07D00031FC07 /* HeadphoneyTests-Info.plist */,
+				CD8A321A188A07D00031FC07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8A31EF188A07D00031FC07 /* Headphoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8A3221188A07D00031FC07 /* Build configuration list for PBXNativeTarget "Headphoney" */;
+			buildPhases = (
+				CD8A31EC188A07D00031FC07 /* Sources */,
+				CD8A31ED188A07D00031FC07 /* Frameworks */,
+				CD8A31EE188A07D00031FC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Headphoney;
+			productName = Audio;
+			productReference = CD8A31F0188A07D00031FC07 /* Headphoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8A3210188A07D00031FC07 /* HeadphoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8A3224188A07D00031FC07 /* Build configuration list for PBXNativeTarget "HeadphoneyTests" */;
+			buildPhases = (
+				CD8A320D188A07D00031FC07 /* Sources */,
+				CD8A320E188A07D00031FC07 /* Frameworks */,
+				CD8A320F188A07D00031FC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8A3216188A07D00031FC07 /* PBXTargetDependency */,
+			);
+			name = HeadphoneyTests;
+			productName = AudioTests;
+			productReference = CD8A3211188A07D00031FC07 /* HeadphoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8A31E8188A07D00031FC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Patrick Robertson";
+				TargetAttributes = {
+					CD8A3210188A07D00031FC07 = {
+						TestTargetID = CD8A31EF188A07D00031FC07;
+					};
+				};
+			};
+			buildConfigurationList = CD8A31EB188A07D00031FC07 /* Build configuration list for PBXProject "Headphoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8A31E7188A07D00031FC07;
+			productRefGroup = CD8A31F1188A07D00031FC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8A31EF188A07D00031FC07 /* Headphoney */,
+				CD8A3210188A07D00031FC07 /* HeadphoneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8A31EE188A07D00031FC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A31FE188A07D00031FC07 /* InfoPlist.strings in Resources */,
+				CD8A320C188A07D00031FC07 /* Images.xcassets in Resources */,
+				CD8A3204188A07D00031FC07 /* Credits.rtf in Resources */,
+				CD8A320A188A07D00031FC07 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8A320F188A07D00031FC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A321C188A07D00031FC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8A31EC188A07D00031FC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A3207188A07D00031FC07 /* ISAppDelegate.m in Sources */,
+				CD8A3200188A07D00031FC07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8A320D188A07D00031FC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8A321E188A07D00031FC07 /* AudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8A3216188A07D00031FC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8A31EF188A07D00031FC07 /* Headphoney */;
+			targetProxy = CD8A3215188A07D00031FC07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8A31FC188A07D00031FC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8A31FD188A07D00031FC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD8A3202188A07D00031FC07 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8A3203188A07D00031FC07 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD8A3208188A07D00031FC07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8A3209188A07D00031FC07 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD8A321A188A07D00031FC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8A321B188A07D00031FC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8A321F188A07D00031FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD8A3220188A07D00031FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD8A3222188A07D00031FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeadPhoney/Headphoney-Prefix.pch";
+				INFOPLIST_FILE = "HeadPhoney/Headphoney-Info.plist";
+				PRODUCT_NAME = Headphoney;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD8A3223188A07D00031FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeadPhoney/Headphoney-Prefix.pch";
+				INFOPLIST_FILE = "HeadPhoney/Headphoney-Info.plist";
+				PRODUCT_NAME = Headphoney;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD8A3225188A07D00031FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio.app/Contents/MacOS/Audio";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio/Audio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AudioTests/HeadphoneyTests-Info.plist";
+				PRODUCT_NAME = HeadphoneyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD8A3226188A07D00031FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio.app/Contents/MacOS/Audio";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio/Audio-Prefix.pch";
+				INFOPLIST_FILE = "AudioTests/HeadphoneyTests-Info.plist";
+				PRODUCT_NAME = HeadphoneyTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8A31EB188A07D00031FC07 /* Build configuration list for PBXProject "Headphoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8A321F188A07D00031FC07 /* Debug */,
+				CD8A3220188A07D00031FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8A3221188A07D00031FC07 /* Build configuration list for PBXNativeTarget "Headphoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8A3222188A07D00031FC07 /* Debug */,
+				CD8A3223188A07D00031FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8A3224188A07D00031FC07 /* Build configuration list for PBXNativeTarget "HeadphoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8A3225188A07D00031FC07 /* Debug */,
+				CD8A3226188A07D00031FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8A31E8188A07D00031FC07 /* Project object */;
+}
