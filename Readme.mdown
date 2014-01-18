@@ -10,3 +10,8 @@ All Kudos go to [this guy on SO](http://stackoverflow.com/questions/14483083/how
 ### Compatibility
 
 This has only been tested on OS X 10.9, but it builds without warnings using the 10.7 SDK - so it should work fine there.
+
+
+### License
+
+This work is provided under the LGPL license. That is - any derivatives of this work, or apps that use this source code must also be open source (any license)
