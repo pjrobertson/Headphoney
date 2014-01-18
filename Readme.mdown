@@ -1,5 +1,12 @@
-A simple project to show you how to use CoreAudio in order to detect headphone insertion/removal.
+### Overview
+
+**A simple project to show you how to use CoreAudio in order to detect headphone insertion/removal.**
 
 When headphones are inserted or the internal speakers are selected for use, your notification block will be called.
 
 All Kudos go to [this guy on SO](http://stackoverflow.com/questions/14483083/how-to-get-notifications-when-the-headphones-are-plugged-in-out-mac?answertab=votes#tab-top).
+
+
+### Compatibility
+
+This has only been tested on OS X 10.9, but it builds without warnings using the 10.7 SDK - so it should work fine there.
