@@ -27,7 +27,7 @@
 			containerPortal = CD8A31E8188A07D00031FC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CD8A31EF188A07D00031FC07;
-			remoteInfo = Audio;
+			remoteInfo = Headphoney;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -176,7 +176,7 @@
 			dependencies = (
 			);
 			name = Headphoney;
-			productName = Audio;
+			productName = Headphoney;
 			productReference = CD8A31F0188A07D00031FC07 /* Headphoney.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -194,7 +194,7 @@
 				CD8A3216188A07D00031FC07 /* PBXTargetDependency */,
 			);
 			name = HeadphoneyTests;
-			productName = AudioTests;
+			productName = HeadphoneyTests;
 			productReference = CD8A3211188A07D00031FC07 /* HeadphoneyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -415,19 +415,19 @@
 		CD8A3225188A07D00031FC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio.app/Contents/MacOS/Audio";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Headphoney.app/Contents/MacOS/Headphoney";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Audio/Audio-Prefix.pch";
+				GCC_PREFIX_HEADER = "Headphoney/Headphoney-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AudioTests/HeadphoneyTests-Info.plist";
+				INFOPLIST_FILE = "HeadPhoneyTests/HeadphoneyTests-Info.plist";
 				PRODUCT_NAME = HeadphoneyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -437,15 +437,15 @@
 		CD8A3226188A07D00031FC07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio.app/Contents/MacOS/Audio";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Headphoney.app/Contents/MacOS/Headphoney";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Audio/Audio-Prefix.pch";
-				INFOPLIST_FILE = "AudioTests/HeadphoneyTests-Info.plist";
+				GCC_PREFIX_HEADER = "Headphoney/Headphoney-Prefix.pch";
+				INFOPLIST_FILE = "HeadPhoneyTests/HeadphoneyTests-Info.plist";
 				PRODUCT_NAME = HeadphoneyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
